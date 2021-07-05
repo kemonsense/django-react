@@ -6,6 +6,8 @@ import { getLeads, deleteLead } from "../../actions/leads";
 export class Leads extends Component {
   static propTypes = {
     leads: PropTypes.array.isRequired,
+    getLeads: PropTypes.array.isRequired,
+    deleteLead: PropTypes.array.isRequired,
   };
 
   componentDidMount() {
